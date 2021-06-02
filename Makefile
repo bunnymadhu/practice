@@ -1,5 +1,6 @@
-#target: prerequisites
-#tab@echo "text"
 madhu:
-	@echo -e "what is your name: " $1
+	@echo -e "what is your name: "
 
+raju:
+	@echo -e "i will create files"
+	touch files.txt
