@@ -1,3 +1,4 @@
 #!/bin/bash
 
-@echo -e "want to know your name: " $1
+echo  "want to know your name: "
+$1
