@@ -1,3 +1,4 @@
+all: madhu raju
 madhu:
 	@echo -e "what is your name: "
 
