@@ -1,4 +1,4 @@
 #target: prerequisites
 #tab@echo "text"
 madhu:
-	@echo madhu.sh
+	@echo madhu.sh $ls
