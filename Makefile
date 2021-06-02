@@ -1,4 +1,5 @@
 #target: prerequisites
 #tab@echo "text"
 madhu:
-	@echo madhu.sh
+	@echo -e "what is your name: " $1
+
