@@ -11,9 +11,10 @@ STAT () {
   }
 
 HEAD () {
-  echo -n -e  "\e[1m $1 \e[0m \t\t ... "
+  echo -n -e  "\e[1;32m $1 \e[0m \t\t ... "
+  echo -n -e  "\e[1;33m $2 \e[0m \t\t ... "
   }
 
-HEAD "Installing Nginx"
+HEAD "Installing Nginx" "okay"
 yum install nginx -y &>>/tmp/project.log
 STAT $?
