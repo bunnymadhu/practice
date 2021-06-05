@@ -20,3 +20,5 @@
  ## in jason for example we can edit some file
  ## vim /tmp/l.json (in case any edit changes we can press 'q') then after it will wrk.
  ## cat /tmp/l/json | jq .fruit   etcc...we can search like that
+
+ ## | jq: to avoid that everytime instead press= q
