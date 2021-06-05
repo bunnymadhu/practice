@@ -11,5 +11,5 @@ STAT () {
   }
 
 HEAD "Installing Nginx"
-yum install nginx -y
+yum install nginx -y &>>/tmp/project.log
 STAT $?
