@@ -10,6 +10,10 @@ STAT () {
   fi
   }
 
+HEAD () {
+  echo -n -e  "\e[1m $1 \e[0m \t\t ... "
+  }
+
 HEAD "Installing Nginx"
 yum install nginx -y &>>/tmp/project.log
 STAT $?
