@@ -11,7 +11,7 @@ STAT () {
   }
 
 HEAD () {
-  echo -n -e  "\e[1;32m $1 \e[0m \t\t ... "
+  echo -e  "\e[1;32m $1 \e[0m \t\t ... "
   echo -n -e  "\e[1;33m $2 \e[0m \t\t ... "
   }
 
