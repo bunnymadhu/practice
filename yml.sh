@@ -11,9 +11,6 @@ topics:
 phoneNumbers: { personal: 999,mobile: 888 }
 
 
-
-
-
 VARS:
    PACKAGE_NAME:httpd
 tasks:
